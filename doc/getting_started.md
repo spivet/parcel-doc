@@ -36,7 +36,7 @@ Parcel 可以使用任何类型的文件作为入口，但是最好是使用HTML
 console.log("hello world");
 ```
 
-Parcel 自带一个开发服务器，当你更改文件时会自动重建你的应用，并且支持[热更新]()用于快速开发。只需要把他指向你的输入文件：
+Parcel 自带一个开发服务器，当你更改文件时会自动重建你的应用，并且支持[热更新](https://github.com/Mcbai/parcel-doc/blob/master/doc/hmr.md)用于快速开发。只需要把他指向你的输入文件：
 
 `parcel index.html`
 
@@ -46,4 +46,4 @@ Parcel 自带一个开发服务器，当你更改文件时会自动重建你的�
 
 `parcel watch index.html`
 
-当你准备为生产构建应用，`build` 模式会关闭监听并且只会构建一次。查看 [Production]() 部分了解更多细节。
+当你准备为生产构建应用，`build` 模式会关闭监听并且只会构建一次。查看 [Production](https://github.com/Mcbai/parcel-doc/blob/master/doc/production.md) 部分了解更多细节。
