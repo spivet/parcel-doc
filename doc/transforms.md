@@ -1,4 +1,4 @@
-# 🐠-转译
+# 🐠 转译
 
 Parcel 支持许多常见的编译，还内置了开箱即用的编译器，尽管许多打包工具都要求你安装和配置插件来编译资源。你可以用 [Babel](https://babeljs.io/) 编译 JavaScript，用 [PostCss](http://postcss.org/) 编译CSS，用 [PostHTML](https://github.com/posthtml/posthtml) 编译HTML。 Parcel 会自动执行这些编译当它在模块中发现相关的配置文件时（比如 `.babelrc`,`.postcssrc`）。
 
