@@ -11,6 +11,7 @@
 4. [✂️ 代码分割](https://github.com/Mcbai/parcel-doc/blob/master/doc/code_splitting.md)
 5. [🔥 模块热更新](https://github.com/Mcbai/parcel-doc/blob/master/doc/hmr.md)
 6. [✨ 生产](https://github.com/Mcbai/parcel-doc/blob/master/doc/production.md)
+7. [🍰 食谱](https://github.com/Mcbai/parcel-doc/blob/master/doc/recipes.md)
 
 ## 进阶
 1. [🛠 如何工作](https://github.com/Mcbai/parcel-doc/blob/master/doc/how_it_works.md)
