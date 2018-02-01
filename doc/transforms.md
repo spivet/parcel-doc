@@ -73,3 +73,27 @@ CSS Modules 使用顶级 `modules` 键启用稍有不同。这是因为包需要
 ```
 
 插件在 `plugins` 对象中作为键值被指定，并且用对象值定义选项。如果没有给插件设定选项，则默认为 `true`。
+
+## TypeScript
+
+[TypeScript](https://www.typescriptlang.org/) 是 JavaScript 的一个超集，它能编译成普通的 JavaScript，它也支持现代 ES2015+ 的特性。编译 TypeScript 是一个开箱即用的功能，不需要任何条件配置：
+
+```HTML
+<!-- index.html -->
+<html>
+<body>
+  <script src="./index.ts"></script>
+</body>
+</html>
+```
+
+```TypeScript
+// index.ts
+import message from "./message";
+console.log(message);
+```
+
+```TypeScript
+// message.ts
+export default "Hello, world";
+```
