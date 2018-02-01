@@ -45,7 +45,21 @@ CSS资源可以从 JavaScript 或者 HTML 文件中导入，并且可以包含�
 
 除了原生CSS，其它CSS编译语言比如LESS,SASS,和Stylus 同样也支持，并且工作方式也一样。
 
-## HTML
+## SCSS
+
+SCSS 编译需要 `node-sass` 模块，用 npm 来安装它：
+
+`npm install node-sass`
+
+一旦你安装了 `node-sass`，你就可以从 JavaScript 文件中引入 SCSS 文件：
+
+```JavaScript
+import './custom.scss'
+```
+
+SCSS 文件里的依赖可以用 `@import` 语句引入。
+
+## HTML 
 
 HTML 资源通常是你提供给 Parcel 的入口文件，但是也可以被 JavaScript 文件引用，比如提供到其它页面的链接。脚本、样式、媒体和其他HTML文件的URL以如上所述的方式被提取并编译。HTML 中的引用被重写以便于它们链接到正确的输出文件。所有的文件名都应该是相对于当前的HTML文件。
 
