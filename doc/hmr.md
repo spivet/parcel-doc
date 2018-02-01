@@ -24,7 +24,10 @@ if (module.hot) {
 
 在使用热模块更新（HMR）时，这个功能会阻止文件更新的自动监听。要禁用 `Safe Write` 功能，使用以下选项：
 
-  * * Sublime Text 3 * 添加 `atomic_save: "false"` 到你的用户首选项（user preferences）。
-  * * IntelliJ * 在首选项（preference）搜索找到 "safe write" 并禁用它。
-  * * Vim * 添加 :set backupcopy=yes 到你的设置（settings）。
-  * * WebStorm * 取消选中 "safe write" 在 Preferences > Appearance & Behavior > System Settings 里。
+* *Sublime Text 3* 添加 `atomic_save: "false"` 到你的用户首选项（user preferences）。
+  
+* *IntelliJ* 在首选项（preference）搜索找到 "safe write" 并禁用它。
+  
+* *Vim* 添加 :set backupcopy=yes 到你的设置（settings）。
+  
+* *WebStorm* 取消选中 "safe write" 在 Preferences > Appearance & Behavior > System Settings 里。
