@@ -1,3 +1,5 @@
+> 注意：该文档已暂停更新，官网已有中文文档，请参考[Parcel 中文网](https://parceljs.org/)
+
 # parcel-doc
 打包工具parcel的中文文档和自己写的parcel使用demo
 
